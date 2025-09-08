@@ -1,0 +1,20 @@
+ion-slides {
+    height: 100%;
+}
+
+.slide {
+    padding: 36px;
+}
+
+ion-card.translucent {
+    background-color: rgba(var(--ion-background-color-rgb, 255, 255, 255), 0.9);
+    backdrop-filter: saturate(180%) blur(30px);
+}
+
+ion-card-content.custom-card-content {
+    padding-top: 20px;
+}
+
+ion-card-content.custom-card-content>p.notlast {
+    margin-bottom: 16px;
+}

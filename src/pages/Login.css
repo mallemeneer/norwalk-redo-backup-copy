@@ -1,0 +1,29 @@
+.nw-margin {
+    margin-top: 32px;
+}
+
+ion-toolbar {
+    --ion-toolbar-background: transparent !important;
+}
+
+ion-content.nw-background {
+    --background: url("../images/bg-snow.png") no-repeat center center / cover !important;
+}
+
+.header-collapse-condense ion-toolbar {
+    --background: transparent !important;
+    z-index: 0 !important;
+}
+
+ion-item,
+ion-item-divider {
+    background: transparent !important;
+}
+
+ion-item {
+    --padding-end: 20px;
+}
+
+.nw-custom-list-heading {
+    margin-left: 20px;
+}

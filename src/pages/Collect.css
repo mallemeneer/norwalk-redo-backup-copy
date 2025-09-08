@@ -1,0 +1,242 @@
+.collectStatusShape {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0);
+    border: 10px solid var(--ion-color-tertiary);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 50%;
+}
+
+.collect-status-container {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.res-circle {
+    /* (A) PERCENTAGE WIDTH & BORDER RADIUS */
+    width: 67%;
+    border-radius: 50%;
+    border: 7px solid var(--ion-color-tertiary);
+    /* (B) BACKGROUND COLOR */
+    background: rgba(0, 0, 0, 0.05);
+    /* (C) NECESSARY TO POSITION TEXT BLOCK */
+    line-height: 0;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+/* (D) MATCH HEIGHT */
+
+.res-circle::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+
+/* (E) TEXT BLOCK */
+
+.circle-txt {
+    /* (E1) CENTER TEXT IN CIRCLE */
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.headerbar-collect {
+    height: 46px;
+    background-color: var(--ion-color-step-0);
+    border-bottom: 1px solid var(--ion-color-step-600);
+    border-top: 1px solid var(--ion-color-step-600);
+    z-index: 1;
+}
+
+.subheaderbar-collect {
+    height: 36px;
+    background-color: var(--ion-color-step-0);
+    border-top: 1px solid var(--ion-color-step-600);
+    border-bottom: 1px solid var(--ion-color-step-600);
+    z-index: 1;
+}
+
+.subsubheaderbar-collect {
+    height: 36px;
+    background-color: var(--ion-color-step-0);
+    z-index: 2;
+}
+
+.mode-label {
+    padding-top: 3px;
+    --transition: opacity 0 ease-in;
+}
+
+.button-icon-margin {
+    margin-right: 6px;
+}
+
+ion-button .align-left {
+    text-align: left;
+}
+
+.nw-italic-text {
+    font-style: oblique;
+}
+
+.nw-bold-text {
+    font-weight: 600;
+}
+
+.nw-light-text {
+    font-weight: 300;
+}
+
+.nw-help-button {
+    line-height: 46px;
+    padding: 0px 0 2px 0;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nw-logo-icon {
+    vertical-align: middle;
+    font-size: 34px;
+    margin-right: 8px;
+}
+
+ion-button.nw-login-button ion-label {
+    color: var(--ion-color-dark) !important;
+}
+
+ion-button.nw-login-button:hover {
+    color: var(--ion-color-medium) !important;
+}
+
+ion-select.nw-network-select {
+    padding-left: 0;
+}
+
+ion-list-header.nw-list-border {
+    border-bottom: 1px solid var(--ion-color-step-600);
+    border-top: 1px solid var(--ion-color-step-600);
+    padding-bottom: 16px;
+}
+
+.footer-bar {
+    height: 40px;
+    background: var(--ion-color-step-100);
+    vertical-align: middle;
+}
+
+ion-button.custom-fab {
+    margin: 0;
+}
+
+ion-button.custom-fab>ion-fab-button {
+    width: 40px;
+    height: 40px;
+    padding-right: 0;
+}
+
+ion-button.custom-fab>button.button-native {
+    padding-right: 0;
+}
+
+.custom-fab {
+    width: 150px !important;
+    height: 150px !important;
+    margin-inline-start: -50px !important;
+    margin-block-start: 35px !important;
+}
+
+.custom-fab-icon-big {
+    font-size: 75px !important;
+    line-height: 75px !important;
+    width: 75px !important;
+    height: 75px !important;
+}
+
+.custom-fab-icon-big .fab-button-close-active {
+    font-size: 75px !important;
+    line-height: 75px !important;
+    width: 75px !important;
+    height: 75px !important;
+}
+
+.custom-fab-list-left {
+    min-width: 150px !important;
+    min-height: 150px !important;
+    margin-inline-end: 155px !important;
+    margin-block-start: 35px !important;
+}
+
+.custom-fab-list-right {
+    min-width: 150px !important;
+    min-height: 150px !important;
+    margin-inline-start: 105px !important;
+    margin-block-start: 35px !important;
+}
+
+.custom-fab-list-top {
+    min-width: 150px !important;
+    min-height: 150px !important;
+    margin-bottom: -75px !important;
+    margin-inline-start: -48px !important;
+}
+
+.custom-fab-list-bottom {
+    min-width: 150px !important;
+    min-height: 150px !important;
+    margin-top: -40px !important;
+    margin-inline-start: -48px !important;
+}
+
+.custom-fab-small {
+    width: 60px !important;
+    height: 60px !important;
+    color: transparent !important;
+}
+
+.fab-wrapper {
+    width: 100%;
+}
+
+.fab-container {
+    width: 100%;
+}
+
+ion-fab-button.fab-button-close-active {
+    --color: transparent;
+    --transition: opacity 0 ease-in;
+    font-size: 1px;
+}
+
+ion-fab.fab-vertical-center {
+    margin-top: -28px;
+    top: 45%;
+}
+
+.customprogressbar {
+    background: var(--ion-color-transparant-step-1);
+    --transition: opacity 0 ease-in;
+}
+
+.logo-img {
+    width: 37%;
+    --transition: opacity 0 ease-in;
+}
+
+ion-backdrop.custombackdrop {
+    --backdrop-opacity: var(--ion-backdrop-opacity, 0.4);
+}

@@ -1,0 +1,12 @@
+ion-toolbar {
+    --ion-toolbar-background: transparent !important;
+}
+
+ion-content.nw-background {
+    --background: url('../images/bg-snow.png') no-repeat center center / cover;
+}
+
+.header-collapse-condense ion-toolbar.nw-background {
+    --background: transparent;
+    z-index: 0;
+}

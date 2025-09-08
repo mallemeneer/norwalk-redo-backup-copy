@@ -1,0 +1,7 @@
+{
+  "name": "norwalk-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
